@@ -1,19 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const TextScramble = ({
+interface TextScrambleProps {
+  text: string;
+  duration?: number;
+  delay?: number;
+  characters?: string;
+}
+
+const TextScramble: React.FC<TextScrambleProps> = ({
   text,
   duration = 1000, // total time in ms for the scramble effect
   delay = 0,
   characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\\:;?><,./-='
 }) => {
   const [displayedText, setDisplayedText] = useState(text);
-  const animationFrameRef = useRef(null);
-  const startTimeRef = useRef(null);
+  const animationFrameRef = useRef<number | null>(null);
+  const startTimeRef = useRef<number | null>(null);
 
   useEffect(() => {
-    let timeoutId;
+    let timeoutId: ReturnType<typeof setTimeout> | null = null; // Explicitly typed
 
-    const scramble = (timestamp) => {
+    const scramble = (timestamp: number) => {
       if (!startTimeRef.current) {
         startTimeRef.current = timestamp;
       }

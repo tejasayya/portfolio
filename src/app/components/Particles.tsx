@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { Renderer, Camera, Geometry, Program, Mesh } from "ogl";
-
 interface ParticlesProps {
   particleCount?: number;
   particleSpread?: number;
@@ -233,6 +232,7 @@ const Particles: React.FC<ParticlesProps> = ({
     sizeRandomness,
     cameraDistance,
     disableRotation,
+    particleColors
   ]);
 
   return (
