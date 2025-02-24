@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
-
 interface CircularTextProps {
   text: string;
   spinDuration?: number;
@@ -46,7 +45,7 @@ const CircularText: React.FC<CircularTextProps> = ({
       scale: 1,
       transition: getTransition(spinDuration, currentRotation),
     });
-  }, [spinDuration, controls, onHover, text]);
+  }, [spinDuration, controls, onHover, text, currentRotation]);
 
   const handleHoverStart = () => {
     if (!onHover) return;

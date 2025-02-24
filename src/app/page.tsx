@@ -5,14 +5,11 @@ import Image from 'next/image';
 import ScrollVelocity from './components/ScrollVelocity';
 import { motion } from 'framer-motion';
 import React, { useRef, useState } from "react";
-import { CardBody, CardContainer, CardItem } from "./components/3d-card";
-import Link from "next/link";
 import Expcomp from './components/Expcomp';
 import details from './details.json';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import CustomizedTimeline from './components/CostamizedTimeline';
-import Typography from '@mui/material/Typography';
 import TextScramble from './components/TextScramble';
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -109,7 +106,7 @@ export default function TestPage() {
           >
             <div className="text-center">
               <h3 className="text-xl text-white">Hello! Welcome to my Space</h3>
-              <h3 className="text-xl text-white">I'm</h3>
+              <h3 className="text-xl text-white">I&apos;m</h3>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Teja Swaroop Sayya</h1>
             </div>
             
