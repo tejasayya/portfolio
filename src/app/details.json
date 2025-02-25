@@ -10,29 +10,36 @@
             ]
         },
         {
-            "role": "Software Engineer - Amazon",
-            "tenure": "October 2022 - August 2023",
+            "role": "Software Engineer - Liberty Global(Client) - Infosys",
+            "tenure": "October 2022 - December 2023",
             "descriptions": [
-                "Engineered backend services using Spring Boot and implemented microservices architecture to ensure scalability and modularity for enterprise applications.",
-                "Contributed to the development of an ML-based recommendation system, focusing on fine-tuning model parameters, optimizing data pipelines, and ensuring seamless data ingestion for accurate predictions.",
-                "Assisted in integrating the recommendation system with RESTful APIs, enabling real-time personalized suggestions for users.",
-                "Built advanced dashboards using ReactJS, visualizing key metrics and insights from the ML recommendation engine.",
-                "Refined data preprocessing and pipeline efficiency with data science and engineering teams to boost system performance.",
-                "Collaborated with teams to refine data preprocessing and optimize pipeline efficiency for improved system performance."
+                "Worked in Horizon Platform Engineering Team, Developed microservices (Spring Boot) for real-time content delivery (Netflix/Spotify integrations) and billing systems.",
+                "Modernized legacy monoliths to Spring Cloud architectures for scalable, cloud-native infrastructure.",
+                "Engineered Spring Batch workflows to process millions of daily billing events across European markets.",
+                "Designed RESTful APIs (Spring Boot 3.x) to streamline integrations with third-party services and internal systems.",
+                "Deployed AWS services using Terraform for optimized cloud resource management.",
+                "Designed TMF921-compliant reactive APIs (Spring WebFlux) for 5G network orchestration and automation."
         
             ]
         },
         {
-            "role": "Data Engineer - CVS Health",
+            "role": "Software Engineer - Verizon(Client) - Infosys",
             "tenure": "May 2021 - October 2022",
             "descriptions": [
-                "Automated ETL workflows with Tableau Prep, reducing manual effort by 95%, saving 35+ hours monthly.",
-                "Optimized 50+ Sqoop jobs, managing 5TB of data in HDFS and Hive, ensuring low-latency que10ries.",
-                "Built a data quality framework with Apache Spark for schema validation on 1TB+ datasets, ensuring data accuracy",
-                "Engineered a robust data quality framework using Apache Spark to validate schemas and profile large datasets for integrity.",
-                "Used Spark to process 1 billion+ unstructured records with text mining algorithms for user table insights.",
-                "Managed data pipelines in GCP with PySpark and BigQuery, streamlining flows and reducing risks in cloud infrastructure.",
-                "Extensively worked with Hadoop, PySpark, AWS EMR, and the broader Hadoop ecosystem (Hive, HDFS, Spark) to architect and manage big data solutions, ensuring scalability and performance optimization."
+                "On the Network Orchestration Team, developed 5G network slicing solutions using Spring WebFlux/TMF921 APIs to dynamically allocate network resources (bandwidth, latency) based on real-time demand. Automated resource provisioning workflows, reducing manual configuration errors.",
+                "Migrated monolithic Java EE applications to Spring Boot microservices, adopting cloud-native design patterns (e.g., circuit breakers, API gateways) for improved scalability. Implemented CI/CD pipelines to streamline deployment processes.",
+                "Orchestrated Kubernetes-based Cloud-Native Functions (CNFs) to manage Verizon’s 5G core and IoT device communication. Containerized network services for seamless scaling and rolling updates in distributed environments.",
+                "Developed low-latency RESTful APIs (Java 11, Spring Boot) for real-time voice/data routing, leveraging asynchronous processing and connection pooling to handle high-throughput traffic.",
+                "Designed Kafka-based event streaming workflows to ingest and process real-time network/IoT telemetry (e.g., device health, traffic patterns). Implemented fault tolerance via replication and dead-letter queues.",
+                "Enhanced Oracle/PostgreSQL performance for high-volume transactional systems using JPA/Hibernate optimizations (e.g., batch processing, second-level caching). Streamlined schema design and indexing strategies."
+            ]
+        },
+        {
+            "role": "System Engineer - Infosys",
+            "tenure": "January 2021 - May 2021",
+            "descriptions": [
+                "Collaborated with the Infosys Agile DevOps team to architect and deploy comprehensive CI/CD pipelines in an open-source environment—streamlining software deployment processes and significantly reducing release cycles.",
+                "Oversaw Oracle and Microsoft SQL Server databases by executing critical management tasks, including the creation and maintenance of databases, users, groups, roles, jobs, and security policies to ensure optimal performance and robust data integrity."
             ]
         }
     ],
