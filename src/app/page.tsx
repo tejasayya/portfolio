@@ -80,7 +80,7 @@ export default function TestPage() {
           ))}
           <li>
             <a 
-              href="https://tejasayya.github.io/TejasResume.pdf"
+              href="https://tejasayya.github.io/TejasResume1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-400 transition-colors text-sm md:text-base"
