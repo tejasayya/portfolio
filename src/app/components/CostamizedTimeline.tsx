@@ -19,7 +19,7 @@ export default function CustomizedTimeline() {
           variant="body2"
           className='text-white'
         >
-          August 2024 - Present
+          June 2024 - Present
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
