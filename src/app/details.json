@@ -184,6 +184,11 @@
     "aws": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/aws.png",
     "clt": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/clt.png",
     "jntu": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/jntu.png",
+    "verizon": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/verizon.png",
+    "infosys": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/infosyslogo.png",
+    "cvs": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/cvs.png",
+    "gdg": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/gdg.png",
+    "gssoc": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/GSSoC.jpeg",
     "certi": [
         [
             "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/hf.png",
