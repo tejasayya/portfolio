@@ -13,6 +13,7 @@ import CustomizedTimeline from './components/CostamizedTimeline';
 import TextScramble from './components/TextScramble';
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import CustomizedTimeline1 from './components/CustomizedTimeline';
 
 export default function TestPage() {
   const sections = [
@@ -223,6 +224,15 @@ export default function TestPage() {
           <div>
             <CustomizedTimeline />
           </div>
+
+          {/* <div>
+            {details.timeline.map( (tm, idx) => (
+
+              <CustomizedTimeline1 key={idx} date={tm.date} title={tm.title} desc={tm.desc} img={tm.img} />
+
+            ) )}
+
+          </div> */}
 
           <div className="space-y-8">
             {/* <Expcomp role={"Software Engineer"} tenure={"Time"} descriptions={"edho okati raa"}/> */}
