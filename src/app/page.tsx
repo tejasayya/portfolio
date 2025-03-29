@@ -13,7 +13,6 @@ import CustomizedTimeline from './components/CostamizedTimeline';
 import TextScramble from './components/TextScramble';
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import CustomizedTimeline1 from './components/CustomizedTimeline';
 
 export default function TestPage() {
   const sections = [

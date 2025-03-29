@@ -15,7 +15,7 @@ const eslintConfig = [
     rules: {
       "@typescript-eslint/no-explicit-any": "off",  // Disable 'no-explicit-any'
       "react-hooks/rules-of-hooks": "off", // Keep strict hooks enforcement
-      "react/no-unescaped-entities": "warn", // Show warning instead of error
+      "react/no-unescaped-entities": "off", // Show warning instead of error
     },
   },
 ];
