@@ -72,6 +72,8 @@ export default function CustomizedTimeline() {
         </TimelineContent>
       </TimelineItem>
 
+      
+
       <TimelineItem>
       <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -91,13 +93,13 @@ export default function CustomizedTimeline() {
             sx={{ width: 56, height: 56 }}
             />
           </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} className="bg-white" />
+          <TimelineConnector sx={{ bgcolor: 'white' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span" className='text-white'>
             Software Engineer - Verizon(Client)
           </Typography>
-          <Typography className='text-white'>Spring Boot | Microservices | Rest API | ReactJS | MongoDB</Typography>
+          <Typography className='text-white'>Spring Boot | Microservices | Rest API | ReactJS | AWS</Typography>
           {/* <Typography className='text-white'>Because you need rest</Typography> */}
 
         </TimelineContent>
@@ -113,16 +115,16 @@ export default function CustomizedTimeline() {
            May 2021 – Oct 2022
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
-            {/* <HotelIcon /> */}
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          <TimelineDot color="secondary">
+            {/* <RepeatIcon /> */}
             <Avatar
             alt="Remy Sharp"
             src={details.cvs1}
             sx={{ width: 56, height: 56 }}
             />
           </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'white' }} />
+          <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span" className='text-white'>
@@ -132,9 +134,11 @@ export default function CustomizedTimeline() {
           {/* <Typography className='text-white'>Because you need rest</Typography> */}
 
         </TimelineContent>
-        </TimelineItem>
+      </TimelineItem>
 
-        <TimelineItem>
+
+
+      <TimelineItem>
         <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             variant="body2"
@@ -163,6 +167,8 @@ export default function CustomizedTimeline() {
           
         </TimelineContent>
       </TimelineItem>
+
+
 
       
 

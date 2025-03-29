@@ -99,6 +99,7 @@
     "Projects": [{
         "title": "Chat With Teja Sayya | RAG",
         "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/TejaBOT.png",
+        "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/TejaBOT.png",
         "imgw": 500,
         "imgh": 500,
         "descrip": [
@@ -111,6 +112,7 @@
     {
         "title": "Pixo.ai",
         "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Pixoai.png",
+        "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Pixoai.png",
         "imgw": 500,
         "imgh": 500,
         "descrip": [
@@ -122,6 +124,7 @@
     },
     {
         "title": "AI Agreement Risk Analyzer",
+        "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Riskmeter.jpg",
         "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Riskmeter.jpg",
         "imgw": 300,
         "imgh": 100,
@@ -136,6 +139,7 @@
     {
         "title": "Messanger",
         "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Chatapp.png",
+        "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Chatapp.png",
         "imgw": 500,
         "imgh": 500,
         "descrip": [
@@ -148,6 +152,7 @@
     {
         "title": "Innominate",
         "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Innominate.png",
+        "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/Innominate.png",
         "imgw": 150,
         "imgh": 150,
         "descrip": [
@@ -159,6 +164,7 @@
     },
     {
         "title": "Make it Talk",
+        "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/makeittalk.jpg",
         "img": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/makeittalk.jpg",
         "imgw": 150,
         "imgh": 150,
@@ -229,7 +235,12 @@
     "spring": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/springboot.png",
     "react": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/react.jpg",
     "next": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/next.png",
+    "mongo": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/mongoleaf.png",
+    "spring": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/springboot.png",
+    "react": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/react.jpg",
+    "next": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/next.png",
     "rag": "",
+    "dsa": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/dsa.png",
     "dsa": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/dsa.png",
     "sd": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIRbJJI6IO1apYFP71w7xZhsDcMoers5sULg&s",
     "aws": "https://raw.githubusercontent.com/tejasayya/pfo/refs/heads/main/public/aws.png",
